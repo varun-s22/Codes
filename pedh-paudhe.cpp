@@ -1,5 +1,4 @@
-#include <iostream>
-#include <queue>
+#include <bits/stdc++.h>
 #define ll long long int
 using namespace std;
 struct node
@@ -539,37 +538,32 @@ public:
         cout << endl;
     }
 };
-class red_black
-{
-    // to be continued later
-};
 int main()
 {
     // creating binary tree
-    // binary_tree b1;
-    // b1.create();
-    // b1.create();
-    // b1.create();
-    // b1.create();
-    // b1.create();
-    // b1.create();
-    // b1.display();
-    // b1.pre();
-    // b1.in();
-    // cout << b1.height() << endl;
+     binary_tree b1;
+     b1.create(23);
+     b1.create(34);
+     b1.create(56);
+     b1.create(82);
+     b1.create(12);
+     b1.create(1);
+     b1.display();
+     b1.pre();
+     b1.in();
 
-    // binary_search_tree b11(50);
-    // b11.add(30);
-    // b11.add(70);
-    // b11.add(20);
-    // b11.add(40);
-    // b11.add(80);
-    // b11.add(60);
-    // b11.display();
-    // b11.deletethenode(50);
-    // b11.display();
-    // b11.deletethenode(70);
-    // b11.display();
+     binary_search_tree b11(50);
+     b11.add(30);
+     b11.add(70);
+     b11.add(20);
+     b11.add(40);
+     b11.add(80);
+     b11.add(60);
+     b11.display();
+     b11.deletethenode(50);
+     b11.display();
+     b11.deletethenode(70);
+     b11.display();
 
     avl_trees a1(9);
     a1.create(5);
